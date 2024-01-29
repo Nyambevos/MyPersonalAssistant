@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T18:17:50.610Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="l_NfcGUHHgNRaOf2zuMv" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-29T18:33:07.961Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="cvrThD88QOUaOl_m7F4V" version="23.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2206" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1024" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -268,7 +268,7 @@
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GW9euud97T4dM2Y2JnJj-81" value="+ validated_input()&#xa;+ save()&#xa;+ load()&#xa;+ help()&#xa;+ list_command()&#xa;+ about()&#xa;+ exit_command()&#xa;+ add_command()&#xa;+ remove_command()&#xa;+ add_phone_command()&#xa;+ rm_phone_command()&#xa;+ edit_phone_command()&#xa;+ edit_name_command()&#xa;+ edit_address_command()&#xa;+ edit_email_command()&#xa;+ edit_birthday_command()&#xa;+ search_command()&#xa;+ show_command()&#xa;+ show_notes_command()&#xa;+ add_note_command()&#xa;+ add_tag_command()&#xa;+ rm_tag_command()&#xa;+ edit_tag_command()&#xa;+ rm_note_command()&#xa;+ search_note_command()&#xa;+ search_note_tag_command()&#xa;+ sort_command()&#xa;+ birthday_command()&#xa;+ main_loop()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="GW9euud97T4dM2Y2JnJj-80" vertex="1">
+        <mxCell id="GW9euud97T4dM2Y2JnJj-81" value="+ running&#xa;+ contact_book&#xa;+ notes_book&#xa;+ validated_input()&#xa;+ save()&#xa;+ load()&#xa;+ help()&#xa;+ list_command()&#xa;+ about()&#xa;+ exit_command()&#xa;+ add_command()&#xa;+ remove_command()&#xa;+ add_phone_command()&#xa;+ rm_phone_command()&#xa;+ edit_phone_command()&#xa;+ edit_name_command()&#xa;+ edit_address_command()&#xa;+ edit_email_command()&#xa;+ edit_birthday_command()&#xa;+ search_command()&#xa;+ show_command()&#xa;+ show_notes_command()&#xa;+ add_note_command()&#xa;+ add_tag_command()&#xa;+ rm_tag_command()&#xa;+ edit_tag_command()&#xa;+ rm_note_command()&#xa;+ search_note_command()&#xa;+ search_note_tag_command()&#xa;+ sort_command()&#xa;+ birthday_command()&#xa;+ main_loop()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="GW9euud97T4dM2Y2JnJj-80" vertex="1">
           <mxGeometry y="26" width="180" height="434" as="geometry" />
         </mxCell>
         <mxCell id="GW9euud97T4dM2Y2JnJj-82" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GW9euud97T4dM2Y2JnJj-80" edge="1">
