@@ -11,6 +11,7 @@ from .contact_book import ContactBook
 from .utils.data_handler import save_data_to_file
 from .utils.data_handler import load_data_from_file
 from .file_sorter import init_folder
+from .abstract import AssistantAbstract
 
 
 commands = {}
@@ -42,7 +43,7 @@ def command_handler(command, description):
     return input_error
 
 
-class Assistant:
+class Assistant(AssistantAbstract):
     def __init__(self) -> None:
         self.running = True
         self.contact_book = ContactBook()
